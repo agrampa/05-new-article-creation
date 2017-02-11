@@ -114,7 +114,7 @@ articleView.create = function() {
 
   // DONE: Show our export field, and export the new article as JSON, so it's ready to copy/paste into blogArticles.js:
   $('#export-field').show();
-  $('#article.json').val(JSON.stringify(article) + ',');  //use .val because it is an input, .val can be a setter(with content) or a getter(when empty)
+  $('#article-json').val(JSON.stringify(article) + ',');  //use .val because it is an input, .val can be a setter(with content) or a getter(when empty)
   //the comma will separate it from the next object when pasted into the object!!
 };
 
